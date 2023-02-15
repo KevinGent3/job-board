@@ -1,0 +1,96 @@
+header {
+  max-width: 100wh;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 30px;
+}
+.jobs-container {
+  margin: 0 auto;
+  width: 1020px;
+  height: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.job-container {
+  width: 300px;
+  height: 300px;
+  border: solid 5px;
+  margin: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 7px;
+  box-sizing: border-box;
+}
+
+.red {
+  border-color: red;
+}
+.green {
+  border-color: green;
+}
+
+.yellow {
+  border-color: yellow;
+}
+.pink {
+  border-color: pink;
+}
+.blue {
+  border-color: blue;
+}
+
+@media (max-width: 1200px) {
+  .jobs-container {
+    width: 850px;
+    height: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .job-container {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 840px) {
+  .jobs-container {
+    width: 700px;
+    height: 700px;
+  }
+  .job-container {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 700px) {
+  .jobs-container {
+    width: 500px;
+    height: 500px;
+  }
+  .job-container {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .jobs-container {
+    width: 400px;
+    height: 300px;
+  }
+  .job-container {
+    width: 400px;
+    height: 200px;
+  }
+}
